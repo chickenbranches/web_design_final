@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/smallScreenStyles.css">
+  <link rel="stylesheet" media="screen and (min-width: 769px)" href="css/modifiedStyles.css">
+  <style type="text/css"></style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
+.row.content {
+	margin-bottom:30px;
+}
+/* Set gray background color and 100% height */
+.sidenav {
+	background-color: #f1f1f1;
+	height: 100%;
+}
+footer {
+    background-color:darkgreen;
+    padding: 25px;
+    height: auto;
+    width:100%;
+    position: relative;
+}
+ 
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+.sidenav {
+	height: auto;
+	padding: 15px;
+}
+.row.content {
+	height: auto;
+}
+}
+</style>
+  </head>
+  <body>
+<div class="jumbotron">
+    <div class="container text-center">
+    <div class="row">
+        <div class="col-sm-4"> <img src="media/banner.png" class="img-responsive" style="width:70%; margin:auto;" alt="Image"> </div>
+        <div class="col-sm-4">
+        <h3>(703) 369-5900</h3>
+        <p>Carry out or Delivery</p>
+        <p>8390 Centreville Rd</br>
+            Manassas Park, VA</p>
+      </div>
+        <div class="col-sm-4" style="padding-top:20px;">
+        <form class="form-inline" method="get" target="_blank">
+            Newsletter:
+            <input type="email" class="form-control" size="20" name="email">
+            <button type="submit" value="submit" 
+formaction="emailtest.php" class="btn btn-danger">Subscribe</button>
+          </form>
+        <p align="center" style="padding-top:25px"><a href="mailto:joes@pizzahut.com">Contact Us</a></p>
+      </div>
+      </div>
+  </div>
+  </div>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="menu.html">Menu</a></li>
+        <li><a href="#">Specials & Coupons</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      </div>
+  </div>
+  </nav>
+<div class="container-fluid">
+    <div class="row content">
+    <div class="col-sm-3 sidenav">
+        <h4>Menu</h4>
+        <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="pizza.html">Pizza</a></li>
+        <li><a href="subs.html">Subs</a></li>
+        <li><a href="turnovers.html">Turnovers</a></li>
+        <li><a href="sandwiches.html">Sandwiches</a></li>
+        <li><a href="pastaentrees.html">Pasta Entrees</a></li>
+        <li><a href="kids.html">Kid's Menu</a></li>
+        <li><a href="appetizers.html">Appetizers</a></li>
+        <li><a href="salads.html">Salads</a></li>
+        <li><a href="drinksdesserts.html">Drinks & Desserts</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+        <br>
+      </div>
+    <div class="col-sm-9">
+        <div class="row">
+        <div class="col-sm-10">
+            <h2 id="sectionTitle">Pizza</h2>
+          </div>
+      </div>
+        <div class="row">
+        <div class="col-sm-2"> </div>
+        <div class="col-sm-8">
+            <div class="col-sm-2">
+            <div class="pricesHeading">Personal 9&quot;</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesHeading">Small 12&quot;</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesHeading">Medium 14&quot;</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesHeading">Large 16&quot;</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesHeading">Sicillian 16x16&quot;</div>
+          </div>
+          </div>
+      </div>
+        <div class="row">
+        <div class="col-sm-2">
+            <div class="menuHeading">Cheese</div>
+          </div>
+        <div class="col-sm-8">
+            <div class="col-sm-2">
+            <div class="pricesp prices">$6.59</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricess prices">$8.59</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesm prices">$9.59</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesl prices">$10.99</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesx prices">$13.59</div>
+          </div>
+          </div>
+      </div>
+        <div class="row">
+        <div class="col-sm-2">
+            <div class="menuParagraph"><strong>Each Additional Topping</strong></div>
+          </div>
+        <div class="col-sm-8">
+            <div class="col-sm-2">
+            <div class="pricesp prices">$.79</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricess prices">$1.29</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesm prices">$1.49</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesl prices">$1.79</div>
+          </div>
+            <div class="col-sm-2">
+            <div class="pricesx prices">$2.29</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-2">
+            <div class="menuHeading">Slice of Pizza</div>
+          </div>
+        <div class="col-sm-8">
+            <div class="col-sm-2">
+            <div class="prices">$2.25</div>
+          </div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"> </div>
+          </div>
+      </div>
+        <div class="row">
+        <div class="col-sm-2">
+            <div class="menuParagraph"><strong>Each Topping Per Slice</strong></div>
+          </div>
+        <div class="col-sm-8">
+            <div class="col-sm-2">
+            <div class="prices">$.50</div>
+          </div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"> </div>
+          </div>
+      </div>
+        <br>
+        <div class="menuHeading">Meat Toppings:</div>
+        <div class="menuParagraph">Pepperoni, Italian Sausage, Meatball, Ham, Salami, Ground Beef, Pork Sausage</div>
+        <div class="menuHeading">Vegetable Toppings:</div>
+        <div class="menuParagraph">Green Peppers, Onions, Mushrooms, Banana Peppers, Broccoli, Fresh Sliced Tomatoes, Extra Cheese, Black Olives, Spinach, Jalapeños </div>
+        <div class="menuHeading">Gourmet Toppings:</div>
+        <div class="menuParagraph">Creamy Ricotta, Feta, Pineapple, Gyro Meat, Anchovies, Chicken, Bacon</div>
+        <div class="menuParagraph">* Double Topping Price</div>
+        <div class="row">
+        <div class="col-sm-10">
+            <h2 style="text-align:center; background-color:firebrick; color:white;">Specialty Pizza</h2>
+          </div>
+      </div>
+        <div class="row">
+        <div class="col-sm-5"> </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricesHeading"> Small 12&quot;</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesHeading"> Medium 14&quot;</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesHeading"> Large 16&quot;</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesHeading"> Sicillian 16x16&quot;</div>
+          </div>
+          </div>
+      </div>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">Joes's Special</div>
+            <div class="menuParagraph">Pepperoni, Italian Sausage, Extra Mozzarella, Onions,Green Peppers & Mushrooms</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">11.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">14.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">16.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">19.59</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">Joe’s Supreme</div>
+            <div class="menuParagraph">With our Famous Twelve Toppings: Pepperoni, Italian Sausage, Ham, Salami, Ground beef, Pork Sausage, 
+            Onions, Mushrooms, Green Peppers, Black Olives, Extra Cheese (anchovies optional)</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">14.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">17.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">19.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">22.99</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">All Meat</div>
+            <div class="menuParagraph">Homemade Pizza Sauce, Pepperoni, Sausage, Ham, Salami, Meatballs & Mozzarella</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">12.79</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">15.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">17.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">19.99</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">Vegetarian</div>
+            <div class="menuParagraph">Homemade Pizza Sauce, Mozzarella, Green Peppers, Onions, Mushrooms, Black Olives & Fresh Tomatoes</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">11.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">14.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">16.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">19.59</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">White Vegetarian</div>
+            <div class="menuParagraph">Fresh Garlic, Imported Olive Oil, Parmesan, Mozzarella, Italian Herbs & the Same Great Fresh Vegetables as our Vegetarian</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">11.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">14.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">16.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">NA</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">White with Garlic</div>
+            <div class="menuParagraph">Fresh Garlic, Imported Olive Oil, Italian Herbs, Extra Mozzarella & Parmesan</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">10.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">12.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">14.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">NA</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">Classic White</div>
+            <div class="menuParagraph">Creamy Ricotta, Extra Mozzarella, Italian Herbs & Parmesan</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">10.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">12.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">14.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">NA</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">Hawaiian</div>
+            <div class="menuParagraph">Homemade Pizza Sauce, Ham, Pineapple & Mozzarella</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">11.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">14.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">16.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">19.59</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">BBQ Grilled Chicken</div>
+            <div class="menuParagraph">Chicken, Mozzarella, Cheddar, Caramelized Onions & our Special BBQ Sauce</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">11.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">14.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">16.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">19.59</div>
+          </div>
+          </div>
+      </div>
+        <br>
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="menuHeading">Rustica</div>
+            <div class="menuParagraph">House specialty! Homemade Pizza Sauce, Italian Sausage,Caramelized Onions, Creamy Ricotta & Mozzarella</div>
+          </div>
+        <div class="col-sm-5">
+            <div class="col-sm-3">
+            <div class="pricess prices">11.99</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesm prices">14.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesl prices">16.59</div>
+          </div>
+            <div class="col-sm-3">
+            <div class="pricesx prices">19.59</div>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+<footer class="container-fluid text-center">
+  <p align="center">&copy;2016 Joes Pizza & Subs</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,127 @@
+#sectionTitle  {
+	text-align: center; 
+	background-color:firebrick; 
+	color:white;
+}
+
+body {
+	font-family: "Georgia";
+}
+
+.pricesp:before {
+	content: 'Personal 9" ';
+}
+.pricess:before {
+	content: 'Small 12" ';
+}
+.pricesm:before {
+	content: 'medium 14" ';
+}
+.pricesl:before {
+	content: 'Large 16" ';
+}
+.pricesx:before {
+	content: 'Sicillian 16x16" ';
+}
+
+.pricesh:before {
+	content: 'Half 6" ';
+}
+
+.pricesw:before {
+	content: 'Whole 12" ';
+}
+
+.prices {
+	text-align:center;
+	width: 100%; 
+}
+
+.pricesHeading {
+	display: none;
+}
+
+
+.menuHeading {
+	color:firebrick;
+	font-weight: bold;
+	text-align: center;  
+}
+
+.menuParagraph {
+	color:green;
+	text-align: center;
+}
+
+.navbarcontainer-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: firebrick;
+}
+	
+a {
+	color: green;
+}
+.panel-primary {
+    border-color: green;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: firebrick;
+    border-color: green;
+}
+
+.navbar-inverse {
+    background-color: darkgreen;
+    border-color: #080808;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: firebrick;
+    background-color: transparent;
+}
+.row.content {
+	min-height:auto;
+}
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: inherit;
+    background-color: #fff;
+}
+footer {
+    background-color:darkgreen;
+    padding: 25px;
+	bottom: 0;
+    width:100%;
+    position: relative;
+	height:50px;
+}
+footer p{
+	color:#fff;
+}
+.col-xs-push-6 {
+    left: 0%;
+}
+.col-xs-push-3 {
+    left: 0%;
+}

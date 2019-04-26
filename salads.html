@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/smallScreenStyles.css">
+<link rel="stylesheet" media="screen and (min-width: 769px)" href="css/modifiedStyles.css">
+<style type="text/css"></style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<style>
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
+
+.row.content {
+	margin-bottom:30px;
+}
+/* Set gray background color and 100% height */
+.sidenav {
+	background-color: #f1f1f1;
+	height: 100%;
+}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+.sidenav {
+	height: auto;
+	padding: 15px;
+}
+.row.content {
+	height: auto;
+}
+}
+</style>
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-4"> <img src="media/banner.png" class="img-responsive" style="width:70%; margin:auto;" alt="Image"> </div>
+      <div class="col-sm-4">
+        <h3>(703) 369-5900</h3>
+        <p>Carry out or Delivery</p>
+        <p>8390 Centreville Rd</br>
+          Manassas Park, VA</p>
+      </div>
+      <div class="col-sm-4" style="padding-top:20px;">
+        <form class="form-inline" method="get" target="_blank">
+          Newsletter:
+          <input type="email" class="form-control" size="20" name="email">
+          <button type="submit" value="submit" 
+formaction="emailtest.php" class="btn btn-danger">Subscribe</button>
+        </form>
+        <p align="center" style="padding-top:25px"><a href="mailto:joes@pizzahut.com">Contact Us</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="menu.html">Menu</a></li>
+        <li><a href="#">Specials & Coupons</a></li>
+        <li><a href="#">Location</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>Menu</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="pizza.html">Pizza</a></li>
+        <li><a href="subs.html">Subs</a></li>
+        <li><a href="turnovers.html">Turnovers</a></li>
+        <li><a href="sandwiches.html">Sandwiches</a></li>
+        <li><a href="pastaentrees.html">Pasta Entrees</a></li>
+        <li><a href="kids.html">Kid's Menu</a></li>
+        <li><a href="appetizers.html">Appetizers</a></li>
+        <li class="active"><a href="salads.html">Salads</a></li>
+        <li><a href="drinksdesserts.html">Drinks & Desserts</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+      <br>
+    </div>
+    <div class="col-sm-9">
+      <div class="row">
+        <div class="col-sm-10">
+          <h2 id="sectionTitle">Salads</h2>
+          <div class="menuHeading" style="text-align:center">Dressings: House Italian, Ranch, Bleu Cheese, Honey Mustard, Thousand Island, Low Fat Ranch</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menuHeading">Extra Dressing</div>
+        </div>
+        <div class="col-sm-5">
+          <div class="col-sm-9 col-xs-push-6">
+            <div class="prices">.79</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menuHeading">Santa Fe Salad</div>
+          <div class="menuParagraph">Blackened Chicken Breast, Black Beans, Tortilla Strips, Salsa, Cheddar, Mozzarella & Sour Cream, Served with Ranch Dressing</div>
+        </div>
+        <div class="col-sm-5">
+          <div class="col-sm-9 col-xs-push-6">
+            <div class="prices">7.59</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menuHeading">Hawaiian Salad</div>
+          <div class="menuParagraph">Chicken, Bacon, Pineapple, Tomatoes, Mozzarella & Mixed Greens, served with Honey Mustard</div>
+        </div>
+        <div class="col-sm-5">
+          <div class="col-sm-9 col-xs-push-6">
+            <div class="prices">7.59</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menuHeading">Tossed Salad</div>
+          <div class="menuParagraph">Mixed Greens, Tomatoes, Onions, Green Peppers, Mushrooms, Hot Peppers, Black olives & Mozzarella</div>
+        </div>
+        <div class="col-sm-5">
+          <div class="col-sm-9 col-xs-push-3">
+            <div class="prices">Mini<br>
+              3.29</div>
+          </div>
+          <div class="col-sm-3">
+            <div class="prices">Reg.<br>
+              4.99</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menuHeading">Chef Salad</div>
+          <div class="menuParagraph">Our Tossed Salad Topped with your Choice of: Ham, Salami & Cheese l Turkey & Cheese Grilled Chicken l Tuna & Coleslaw, Ham, Turkey & Cheese</div>
+        </div>
+        <div class="col-sm-5">
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-3">
+            <div class="prices">Mini<br>
+              5.29</div>
+          </div>
+          <div class="col-sm-3">
+            <div class="prices">Reg.<br>
+              7.59</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menuHeading">Greek Salad</div>
+          <div class="menuParagraph">Mixed Greens, Onions, Tomatoes, Olives, Pepperoncini, Green Peppers & Feta, Serve with House Italian</div>
+        </div>
+        <div class="col-sm-5">
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-3">
+            <div class="prices">6.99</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="menuHeading">Gyro Salad</div>
+          <div class="menuParagraph">Gyro Meat, Feta, Tomatoes & Mixed Greens, Served with Gyro Sauce</div>
+        </div>
+        <div class="col-sm-5">
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-3"> </div>
+          <div class="col-sm-3">
+            <div class="prices">7.59</div>
+          </div>
+          <div class="col-sm-3">
+            <div class="prices">W/Pita<br>
+              8.59</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container-fluid text-center">
+  <p align="center">&copy;2016 Joes Pizza & Subs</p>
+</footer>
+</body>
+</html>

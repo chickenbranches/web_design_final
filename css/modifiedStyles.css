@@ -1,0 +1,116 @@
+#sectionTitle  {
+	text-align: center; 
+	background-color:firebrick; 
+	color:white;
+}
+.row.content {
+	min-height:760px;
+}
+.jumbotron {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: inherit;
+    background-color: #fff;
+}
+body {
+	font-family: "Georgia";
+}
+.pricesp {
+	text-align: center;
+	width:100%;
+}
+.pricess {
+	text-align:center;
+	width: 100%; 
+}
+.pricesm {
+	text-align:center;
+	width: 100%; 
+}
+.pricesl {
+	text-align:center;
+	width: 100%; 
+}
+.pricesx {
+	text-align:center;
+	width: 100%; 
+}
+.prices {
+	text-align:center;
+	width: 100%; 
+}
+
+.pricesHeading {
+	text-align:center;
+	width: 100%;
+}
+
+.menuHeading {
+	color:firebrick;
+	font-weight: bold;
+	text-align: left;  
+}
+
+.menuParagraph {
+	color:green;
+}
+
+.navbarcontainer-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: firebrick;
+}
+	
+a {
+	color: green;
+}
+.panel-primary {
+    border-color: green;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: firebrick;
+    border-color: green;
+}
+
+.navbar-inverse {
+    background-color: darkgreen;
+    border-color: #080808;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background-color: #080808;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: firebrick;
+    background-color: transparent;
+}
+footer {
+    background-color:darkgreen;
+    padding: 25px;
+	bottom: 0;
+    width:100%;
+    position: relative;
+	height:100px;
+}
+footer p{
+	color:#fff;
+}
+
+
